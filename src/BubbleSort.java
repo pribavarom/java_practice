@@ -19,7 +19,7 @@ public class BubbleSort {
         }
         System.out.println("]");
 
-        boolean isSorted = false;
+        boolean isSorted = false; // Флаг того, отсортирован ли уже массив или нет
         int buf;
         while(!isSorted) {
             isSorted = true;
